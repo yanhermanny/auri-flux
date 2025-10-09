@@ -1,0 +1,110 @@
+# ----------------------------
+# Java & Build
+# ----------------------------
+/target/
+/out/
+/build/
+/*.class
+/*.jar
+/*.war
+/*.ear
+
+# Maven
+/logs/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+.settings/
+dependency-reduced-pom.xml
+release.properties
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release-notes.md
+
+# Eclipse
+.project
+.classpath
+.settings/
+*.launch
+
+# IntelliJ IDEA
+*.iml
+*.ipr
+*.iws
+.idea/
+out/
+
+# VSCode
+.vscode/
+.history/
+
+# ----------------------------
+# Spring Boot
+# ----------------------------
+/spring-boot-loader/
+spring.log
+*.log
+
+# ----------------------------
+# Environment variables / Secrets
+# ----------------------------
+.env
+.env.local
+.env.*.local
+*.secret
+
+# ----------------------------
+# OS specific
+# ----------------------------
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+.cache/
+.local/
+
+# ----------------------------
+# Docker
+# ----------------------------
+*.dockerfile
+docker-compose.override.yml
+docker-compose.local.yml
+.docker/
+
+# ----------------------------
+# GitHub Actions / CI
+# ----------------------------
+/.github/workflows/*.yml.lock
+/github/actions-runner/_work/
+
+# ----------------------------
+# Logs & temp files
+# ----------------------------
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.orig
+*.rej
+
+# ----------------------------
+# Optional: coverage / test reports
+# ----------------------------
+/jacoco.exec
+/target/site/
+coverage/
+
+# Node modules para git-hooks
+/tools/git-hooks/node_modules/
+/tools/git-hooks/npm-debug.log
